@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+config.json
+
+# Runtime data: never commit users and password hashes
+/data/*
+!/data/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
